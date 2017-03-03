@@ -1,1 +1,17 @@
-TODO Items comes here
+Scenario –
+An ISV has great idea of creating enterprise blogging platform as a service. They have approached Exilesoft to create a proof of concept to get this idea going. They expect the following features from the PoC.
+•	Employees of a company should be able single sign on to the application with their respective Azure AD.
+•	Multiple customers and their employees should be able to update their profile information stored in Azure SQL database. 
+•	Profile includes profile images
+•	Users can create posts and comment on the posts.
+•	Users should be able to tag the posts.
+•	The blogging platform should offer search.
+•	The ISV has plans to expose the service as an API, so their mobile developers can be able to consumer and develop applications.
+•	Performance of the application also need to be considered and required measures need to be made.
+•	The CTO of the ISV also concerned about the Azure capacity planning and monitoring, and curios to know about the available features in Azure.
+
+Expected Objectives
+•	Choosing right offerings of Azure
+•	Enterprise level multi-tenant and single sign scenarios
+•	Handling polyglot persistence
+•	Using proper Azure services for logging and monitoring
