@@ -1,0 +1,9 @@
+﻿@using BlogPlatform.Models;
+
+@foreach (PostModel post in ViewBag.Posts)
+{
+    <h2>@post.Title</h2>
+    <p>@post.Content</p>
+    <img src= "@Url.Content(post.ImageUrl)" alt="Image" height="250" width="350" />
+    <hr style="border: 4px; color:#676767" />
+}

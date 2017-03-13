@@ -15,3 +15,8 @@ Expected Objectives
 •	Enterprise level multi-tenant and single sign scenarios
 •	Handling polyglot persistence
 •	Using proper Azure services for logging and monitoring
+
+
+one blog can have many users
+one blog can have many posts
+posts can have a user
